@@ -44,3 +44,12 @@ the current number : this is the sorted array
 7. In the outer loop store the current number in the sorted array in the pos where the current was
 Algo End~
 */
+/* 
+Tips for string sort:
+Change your algorithm to sort String values. 
+You’ll have to do a few edits here. 
+First, a few variables will need to be changed from ints to Strings, including the type of the input array itself! 
+Next, you’ll have to take a look at your if statement. We can’t use > or < when comparing Strings. 
+Instead, look into how the compareTo() method works. By using compareTo() and seeing if the value is greater than or less than 0, 
+you can determine which String is “bigger” in value.
+*/
